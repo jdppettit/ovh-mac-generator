@@ -1,0 +1,27 @@
+{
+  "name": "ovh-mac-generator",
+  "version": "0.0.1",
+  "description": "Automatically generate virtual macs for your IP range",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverp1/ovh-mac-generator.git"
+  },
+  "keywords": [
+    "OVH",
+    "MAC"
+  ],
+  "author": "Joe Pettit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silverp1/ovh-mac-generator/issues"
+  },
+  "homepage": "https://github.com/silverp1/ovh-mac-generator#readme",
+  "dependencies": {
+    "arc-log": "^1.0.10",
+    "ovh": "^1.1.3"
+  }
+}

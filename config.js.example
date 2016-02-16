@@ -1,0 +1,11 @@
+var APP_KEY = ''
+var APP_SECRET = ''
+var CONSUMER_KEY = ''
+var ENDPOINT = ''
+
+module.exports = {
+  APP_KEY: APP_KEY,
+  APP_SECRET: APP_SECRET,
+  CONSUMER_KEY: CONSUMER_KEY,
+  ENDPOINT: ENDPOINT
+};
