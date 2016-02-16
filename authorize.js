@@ -12,7 +12,7 @@ ovh.request('POST', '/auth/credential', {
 	]
 }, function(error, credential) {
 	if (error) {
-		console.log("Got an error...")
+		console.log("Got an error...");
 		console.error(error);
 		process.exit(1);
 	} else {
