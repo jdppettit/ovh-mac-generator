@@ -10,7 +10,7 @@ OVH.
 
 ## Use
 
-* Create an OVH application [In the US](https://ca.api.ovh.com/createApp/) [In Europe](https://eu.api.ovh.com/createApp/) - other options available [here](http://ovh.github.io/node-ovh/)
+* Create an OVH application [In the US](https://ca.api.ovh.com/createApp/) / [In Europe](https://eu.api.ovh.com/createApp/) - other options available [here](http://ovh.github.io/node-ovh/)
 * `cp config.js.example config.js`
 * Put the `APP_KEY` and `APP_SECRET` in the appropriate spots in config.js. Also, populate the endpoint and service name. Possible endpoints can be found [here](http://ovh.github.io/node-ovh/) - the service name is the name of your server available in the OVH control panel.
 * `node authorize.js`. You will see something like this:
