@@ -14,7 +14,7 @@
     "OVH",
     "MAC"
   ],
-  "author": "Joe Pettit",
+  "author": "Joe Pettit, Zack Buhman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/silverp1/ovh-mac-generator/issues"
