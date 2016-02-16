@@ -10,7 +10,7 @@ var ovh = require('ovh')({
 });
 
 var ip_network = process.env.IP_RANGE;
-var ip_array = ip_functions.enummerate(ip_network);
+var ip_array = ip_functions.enumerate(ip_network);
 
 function requestVirtualMac(ip_address) {
   ovh.request('POST', '/dedicated/server/' + config.SERVICE_NAME, {
