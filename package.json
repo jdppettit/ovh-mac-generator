@@ -22,6 +22,8 @@
   "homepage": "https://github.com/silverp1/ovh-mac-generator#readme",
   "dependencies": {
     "arc-log": "^1.0.10",
+    "bluebird": "^3.3.1",
+    "netmask": "^1.0.5",
     "ovh": "^1.1.3"
   }
 }
