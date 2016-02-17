@@ -8,6 +8,13 @@ OVH.
 
 * Node.js >= 4.0.0
 
+## Setup
+
+* Obtain Node.js 4.0.0 or above and NPM
+* Clone this repo
+* `cd` to the ovh-mac-generator directory
+* `npm install`
+
 ## Use
 
 * Create an OVH application [In the US](https://ca.api.ovh.com/createApp/) / [In Europe](https://eu.api.ovh.com/createApp/) - other options available [here](http://ovh.github.io/node-ovh/)
