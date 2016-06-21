@@ -24,6 +24,7 @@ ovh.requestAsync('GET', '/dedicated/server/' + config.SERVICE_NAME + '/virtualMa
    }
   })
  }).then(function() {
+  console.log();
   ip_to_mac_list.forEach(function(i) {
    console.log(i);
   });
