@@ -15,11 +15,11 @@ OVH.
 * `cd` to the ovh-mac-generator directory
 * `npm install`
 
-## Use
+## Configuration
 
 * Create an OVH application [In the US](https://ca.api.ovh.com/createApp/) / [In Europe](https://eu.api.ovh.com/createApp/) - other options available [here](http://ovh.github.io/node-ovh/)
 * `cp config.js.example config.js`
-* Put the `APP_KEY` and `APP_SECRET` in the appropriate spots in config.js. Also, populate the endpoint and service name. Possible endpoints can be found [here](http://ovh.github.io/node-ovh/) - the service name is the name of your server available in the OVH control panel.
+* Put the `APP_KEY` and `APP_SECRET` in the appropriate spots in config.js. Possible endpoints can be found [here](http://ovh.github.io/node-ovh/) - the service name is the name of your server available in the OVH control panel.
 * `node authorize.js`. You will see something like this:
 
 ```
@@ -33,8 +33,8 @@ Please do the following:
   state: 'pendingValidation' }
 ```
 
-Follow the instructions above.
+## Usage
 
 * `IP_RANGE=1.1.1.1/24 node generator.js` - substitute your IP range using CIDR notation. This will take a while to run, once it stops proceed on to the last step.
-* `IP_RANGE=1.1.1.1/24 node listgen.js` - This will take a minute or so depending on how many IPs you have total, once it is done you will get a list of IP addresses and vMACs.
+* `node listgen.js <ovh-ca|ovh-eu> <ns1234.ip-1-2-3.net> <1.2.3.4/5>` - This will take a minute or so depending on how many IPs you have total, once it is done you will get a list of IP addresses and vMACs.
 * You should be done. If you are [Virtkick](https://virtkick.com) user you can copy and paste the list right into the OVH mapping box to set up your new range in the Virtkick panel.
